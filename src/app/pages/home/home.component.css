@@ -1,0 +1,41 @@
+.home-section-1 {
+    height: 92vh;
+}
+.home-section-1 h1{
+    font-size: 60px;
+}
+.home-section-1 h4{
+    font-size: 40px;
+}
+.home-section-3{
+    height: 500px;
+}
+.aboutlogo{
+    height: 500px;
+     width:300px;
+}
+.home-section-5{
+    height:400px;
+}
+
+@media (max-width: 430px){
+    .home-section-1 {
+        height: 600px;
+    }
+    .home-section-1 h1{
+        font-size: 40px;
+    }
+    .home-section-1 h4{
+        font-size: 20px;
+    }
+    .home-section-3{
+        height: 950px;
+    }
+    .aboutlogo{
+        height: 300px;
+         width:300px;
+    }
+    .home-section-5{
+        height:950px;
+    }
+}

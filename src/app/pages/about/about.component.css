@@ -1,0 +1,35 @@
+.about-section-2-img{
+    height: 300px; 
+    width:500px;
+}
+
+.about-section-3{
+    height: 500px;
+}
+.aboutlogo{
+    height: 300px;
+     width:500px;
+}
+.about-section-6-img{
+    height: 300px;
+     width:500px;
+}
+@media (max-width: 430px){
+    .about-section-2-img{
+        width: 200px;
+         height: 150px;
+         align-items: center;
+    }
+    .about-section-3{
+        height:950px;
+    }
+    .aboutlogo{
+        height: 300px;
+         width:300px;
+    }
+    .about-section-6-img{
+        width: 200px;
+         height: 150px;
+         align-items: center;
+    }
+}

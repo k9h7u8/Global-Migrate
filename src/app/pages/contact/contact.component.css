@@ -1,0 +1,9 @@
+.submitMessage{
+    color: green;
+    margin: 10px;
+    font-weight: bold;
+}
+.error{
+    color: red;
+    margin-top: 10px;
+}
