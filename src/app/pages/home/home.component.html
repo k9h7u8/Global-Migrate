@@ -5,8 +5,85 @@
             <h1 class="text-white">Explore Global Horizons with Global Migrate</h1>
             <h4 class="text-white">Discover boundless opportunities worldwide with
                 Global Migrate.</h4>
-            <button type="button" class="btn btn-dark btn-lg" style="background-color: #651818">free Expert
-                Consultation</button>
+            <div class="overflow-hidden m-5">
+                <a type="button" style="background-color: #651818"
+                    class="btn btn-dark btn-lg btn-outline text-color-light font-weight-semibold border-width-4 custom-link-effect-1 text-1 text-xl-3 d-inline-flex align-items-center py-3 px-4"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Free Expert Consultation<i class="custom-arrow-icon ms-2"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content"
+                        style="background: linear-gradient(137.92deg, #0052CD -5.92%, #000000 42.97%); padding:50px; border-color:black">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            style="position: absolute; top: 10px; right: 10px; font-size: 1.5rem; color: black; background-color: white; z-index: 9999; border: none;">
+                        </button>
+
+
+
+                        <div class="row" style="display: flex; align-items:center; justify-content:center">
+                            <div class="col-md-6">
+                                <h1 style="color: white; font-size: 40px; font-weight: bold; line-height: 1.2;">
+                                    Transform Your Business Future Now - Connect with Our Experts Today!
+                                </h1>
+                                <h4 style="color: white; font-size: 20px; line-height: 1.2;">
+                                    Whether Nurturing New Ideas or Refining Established Paths, We're
+                                    Here to
+                                    Empower Your Success.
+                                </h4>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-container"
+                                    style="padding: 20px; border-radius: 10px; background-color:rgba(0, 24, 59, 1)">
+                                    <form>
+                                        <div class="mb-2">
+                                            <label for="name" class="form-label" style="color: white;">Full Name</label>
+                                            <input type="text" id="fullName" class="form-control border-0 border-bottom"
+                                                style="background-color: transparent; color: white;" required>
+                                            <div id="fullNameError" class="error-message" style="color: red;"></div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="contact" class="form-label"
+                                                style="color: white;">Contact</label>
+                                            <input type="number" id="contact"
+                                                class="form-control border-0 border-bottom"
+                                                style="background-color: transparent; color: white;" required>
+                                            <div id="contactError" class="error-message" style="color: red;"></div>
+                                        </div>
+
+                                        <div class="mb-2">
+                                            <label for="email" class="form-label" style="color: white;">Email Id</label>
+                                            <input type="email" id="email_id"
+                                                class="form-control border-0 border-bottom"
+                                                style="background-color: transparent; color: white;" required>
+                                            <div id="emailError" class="error-message" style="color: red;"></div>
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="description" class="form-label" style="color: white;">Project
+                                                Description</label>
+                                            <input type="text" id="description"
+                                                class="form-control border-0 border-bottom"
+                                                style="background-color: transparent; color: white;" required>
+                                            <div id="descriptionError" class="error-message" style="color: red;"></div>
+                                        </div>
+                                        <div class="text-end pt-3">
+                                            <button onclick="sendMail()" class="btn"
+                                                style="background: rgba(72, 72, 72, 0.5); color:white; border-radius: 5px !important;"
+                                                data-bs-dismiss="modal">Request
+                                                A
+                                                Proposal</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="home-section-2 m-5 p-3">
@@ -50,7 +127,8 @@
                 </div>
             </div>
             <div class="text-center mt-3">
-                <button type="button" class="btn btn-dark" style="background-color: #651818">Explore More</button>
+                <a href="visa-information" type="button" class="btn btn-dark" style="background-color: #651818">Explore
+                    More</a>
             </div>
         </div>
     </section>
@@ -70,8 +148,8 @@
                         excellence and a focus on personalized service, we empower individuals and families to navigate
                         the complexities of global migration with confidence. Discover your pathway to new opportunities
                         and a brighter future with us.</p>
-                    <button type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">Read
-                        More</button>
+                    <a href="about" type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">Read
+                        More</a>
                 </div>
             </div>
         </div>
@@ -112,8 +190,8 @@
                 </div>
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">Know
-                    More</button>
+                <a href="services" type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">Know
+                    More</a>
             </div>
         </div>
 
@@ -135,9 +213,9 @@
                         migration journey with clarity and confidence. Schedule your appointment today to embark on a
                         path towards a brighter future.</p>
 
-                    <button type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">
+                    <a href="contact" type="button" class="btn btn-dark btn-lg m-3" style="background-color: #651818">
                         Consult for free
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
