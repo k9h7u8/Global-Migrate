@@ -12,54 +12,55 @@
                 the process with personalized support. Trust us to make your global migration journey smooth and
                 successful.</p>
             <div class="row mt-5 d-flex justify-content-center align-items-center">
-                <div class="card p-0 m-3" style="width: 23rem; height:16rem">
-                    <div class="card-body ">
-                        <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
+                <div class="col-12 col-sm-6 col-lg-4 mb-3" *ngFor="let ele of servicesList">
+                    <div class="card p-0 m-3" style="width: 23rem; height:14rem; border: 4px solid #651818">
+                        <div class="card-body ">
+                            <h5 class="card-title" style="font-size:25px;">{{ele?.title || ''}}</h5>
+                            <p class="card-text" style="font-size:18px;">{{ele?.description || ''}}</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card p-0 m-3" style="width: 23rem; height:16rem">
+                <!-- <div class="card p-0 m-3" style="width: 23rem; height:16rem; border: 4px solid #651818">
+                    <div class="card-body ">
+                        <h5 class="card-title">{{ele?.title || ''}}</h5>
+                        <p class="card-text">{{ele?.description || ''}}</p>
+                    </div>
+                </div>
+                <div class="card p-0 m-3" style="width: 23rem; height:16rem; border: 4px solid #651818">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
-                <div class="card m-3 p-0" style="width: 23rem; height:16rem">
+                <div class="card m-3 p-0" style="width: 23rem; height:16rem; border: 4px solid #651818">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
-                <div class="card p-0 m-3" style="width: 23rem; height:16rem">
+                <div class="card p-0 m-3" style="width: 23rem; height:16rem; border: 4px solid #651818">
                     <div class="card-body ">
                         <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
-                <div class="card p-0 m-3" style="width: 23rem; height:16rem">
+                <div class="card p-0 m-3" style="width: 23rem; height:16rem; border: 4px solid #651818">
                     <div class="card-body ">
                         <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
                 </div>
-                <div class="card p-0 m-3" style="width: 23rem; height:16rem">
+                <div class="card p-0 m-3" style="width: 23rem; height:16rem; border: 4px solid #651818">
                     <div class="card-body ">
                         <h5 class="card-title">Card title</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the card's content.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 

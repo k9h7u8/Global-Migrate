@@ -2,3 +2,24 @@
 html, body{
     font-family: "Merriweather";
 }
+
+.char-animation {
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .char-animation span {
+    display: inline-block;
+    opacity: 0;
+    animation: fadeInChar 0.1s forwards;
+    animation-delay: calc(0.1s * var(--index));
+  }
+  
+  @keyframes fadeInChar {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
