@@ -18,6 +18,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { InstituteComponent } from './pages/institute/institute.component';
 import { VisaComponent } from './pages/visa/visa.component';
 import { ResultsComponent } from './pages/results/results.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -39,6 +40,7 @@ import { ResultsComponent } from './pages/results/results.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    NgbModule,
     ReactiveFormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideFirestore(() => getFirestore()),

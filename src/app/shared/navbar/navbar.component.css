@@ -6,3 +6,7 @@
     background-color: rgb(249, 231, 231) !important;
     color: black;
 }
+
+.is-active{
+    color:white !important;
+}
