@@ -3,16 +3,16 @@
     background-repeat: no-repeat, no-repeat; height: 70vh; letter-spacing:0.5px;">
     </section>
 
-    <section class="visa-section-2 m-5 p-3">
+    <section class="visa-section-2 my-5">
         <div class="container">
             <div class="text-center">
                 <h1>STUDY VISA</h1>
                 <h5>Choose from vast Countries to settle in Abroad</h5>
             </div>
-            <div class="card-container p-2">
+            <div class="card-container">
                 <div class="row">
-                    <div class="col-md-4" *ngFor="let visas of visaList; index as idx">
-                        <div class="card m-2 p-0" style="width: 26rem; height:28rem;">
+                    <div class="col-md-4 mb-3" *ngFor="let visas of visaList; index as idx">
+                        <div class="card p-0" style="width: 22rem; height:27rem;">
                             <img [src]="visas.imageUrl" style="width:100%; height: 270px">
                             <div class="card-body">
                                 <h5 class="card-title">{{visas.title}}</h5>

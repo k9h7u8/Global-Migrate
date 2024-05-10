@@ -20,7 +20,7 @@
 
 @media (max-width: 430px){
     .home-section-1 {
-        height: 600px;
+        height: 92vh;
     }
     .home-section-1 h1{
         font-size: 40px;

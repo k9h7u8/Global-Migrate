@@ -80,7 +80,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="d-grid">
-                                    <button type="reset" class="btn btn-primary btn-lg" [disabled]="contactForm.invalid"
+                                    <button type="reset" class="btn btn-lg"
+                                        style="background-color: rgb(248, 203, 203);" [disabled]="contactForm.invalid"
                                         (click)="submitData(contactForm.value)">Submit</button>
                                     <p *ngIf="isSubmit" class="submitMessage">{{submitMessage}}</p>
                                 </div>

@@ -3,7 +3,7 @@
         style="background-image: url(assets/image/john-schnobrich-FlPc9_VocJ4-unsplash.jpg);background-size: cover; 
     background-repeat: no-repeat, no-repeat; height:70vh; letter-spacing:0.5px; object-fit:cover;display: flex; justify-content: center; align-items: center;">
     </section>
-    <section class="service-section-2 m-lg-5 m-sm-3 p-2">
+    <section class="service-section-2 my-5 ">
         <div class="container">
             <h1 class="text-center" style="font-weight: bold; font-size:40px;">OUR SERVICES</h1>
             <p class="text-center" style="font-weight: lighter; font-size:20px;">At Global Migrate, we offer
@@ -12,8 +12,8 @@
                 the process with personalized support. Trust us to make your global migration journey smooth and
                 successful.</p>
             <div class="row mt-5 d-flex justify-content-center align-items-center">
-                <div class="col-12 col-sm-6 col-lg-4 mb-3" *ngFor="let ele of servicesList">
-                    <div class="card p-0 m-3" style="width: 23rem; height:14rem; border: 4px solid #651818">
+                <div class="col-12 col-sm-6 col-lg-4 mb-5" *ngFor="let ele of servicesList">
+                    <div class="card p-0" style="width: 22rem; height:16rem; border: 4px solid #651818">
                         <div class="card-body ">
                             <h5 class="card-title" style="font-size:25px;">{{ele?.title || ''}}</h5>
                             <p class="card-text" style="font-size:18px;">{{ele?.description || ''}}</p>
